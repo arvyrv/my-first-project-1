@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<title> Products </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="reset.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="font/web/css/all.css" rel="stylesheet" type="text/css">
+</head>
+<body class="product">
+	<header>
+	<nav class="navbar">
+		<span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-align-justify"></i>
+		</span>
+			<div class="fitness">
+			<img src="pic/Fitness.png">
+			</div>
+			<a href="Main.html" class="logo"><h3> Fitness Apparel </h3></a>
+			<ul class="main-nav" id="js-menu">
+				<li>
+                <a href="Main.html" class="nav-links">Home</a>
+				</li>
+				<li>
+                <a href="product.html" class="nav-links">Products</a>
+				</li>
+				<li>
+                <a href="AboutUS.html" class="nav-links">About Us</a>
+				</li>
+				<li>
+                <a href="contact.html" class="nav-links" id="cta">Contact Us</a>
+				</li>
+        </ul>
+	</nav>
+</header>
+<br>
+<div> <div>
+<section id="mainprod">
+	<div class="wrapper">
+			<div class="pick">Pick your choice !!</div><br><br>
+		<div class="grid">
+			<div class="item">
+				<img src="pic/productimg/hoodiesmen.jpg">
+				<a href="hoodiesmen.html" class="hoodie">HOODIES for Men</a>
+			</div>
+			<div class="item">
+				<img src="pic/productimg/hoodieswomen.jpg">
+				<a href="hoodieswomen.html" class="hoodiew">HOODIES for Women</a>
+			</div>
+			<div class="item">
+				<img src="pic/productimg/jackets and gilets.jpg">
+				<a href="jacketsgilets.html" class="jacketsg">Jackets and gilets</a>
+			</div>
+		</div>
+	</div>	
+		<div class="grid">
+			<div class="item">
+				<img src="pic/productimg/men short.jpg">
+				<a href="menshort.html" class="Mshort">Men shorts</a>
+			</div>
+			<div class="item">
+				<img src="pic/productimg/sport accesories.jpg">
+				<a href="sportsaccess.html" class="Access">Sports Accesories</a>
+			</div>
+			<div class="item">
+				<img src="pic/productimg/jumsuit and rompers.jpg">
+				<a href="jrompers.html" class="rompers">Jumpsuit and Rompers</a>
+			</div>
+	</div>
+		<div class="grid">
+			<div class="item">
+				<img src="pic/productimg/sport top for men.jpg">
+				<a href="sportsmen.html" class="sportsmen">Sports Men Top</a>
+			</div>
+			<div class="item">
+				<img src="pic/productimg/sport top for women.jpg">
+				<a href="sportswomen.html" class="sportswomen">Sports Women Top</a>
+			</div>
+			<div class="item">
+				<img src="pic/productimg/track suit.jpg">
+				<a href="traksuit.html" class="track">Track Suit</a>
+			</div>
+		</div>
+</section>
+
+<footer>
+	<section id="social">
+		<a href="https://www.facebook.com/arvy.rv"><i  class="fab fa-facebook-f"></i></a>
+		<a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i> </a>
+		<a href="https://www.instagram.com/arvyyy/"><i class="fab fa-instagram"></i> </a>
+	</section>
+	<section id="copy">
+		<ul>
+			<li> This is about my business</li>
+			<li> (0935)1234561</li>
+			<li> info@template.com</li>
+		</ul>
+		<p>Copyright &copy; 2020 </p>
+	</section>
+</footer>
+<script>
+	let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+    
+    mainNav.classList.toggle('active');
+});
+</script>
+</body>
+</html>

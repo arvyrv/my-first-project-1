@@ -1,0 +1,1642 @@
+body {
+	font-family: Mukta;
+}
+
+.navbar {
+    font-size: 18px;
+    background: linear-gradient(90deg, rgba(250,250,250,0.8), rgba(84,84,84,0.8));
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+.main-nav {
+    list-style-type: none;
+}
+.nav-links,
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+.logo {
+	position: absolute;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+	left: 40px;
+	top: 10px;
+	font-style: italic;
+	line-height: 1.2;
+}
+.fitness {
+	position: static;
+    width: 47px;
+	height: 51px;
+	z-index: 15;
+}
+.navbar-toggle {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+}
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.active {
+  display: block;
+}
+.shop {
+	border: 1px solid #fff;
+	padding: 8px 12px;
+}
+.shop:hover{
+	border: 1px solid #ccc;
+	padding: 12px 18px;
+}
+section#main {
+	padding: 60px 15px;
+}
+section#main h2{
+	font-family: Poppins;
+	font-size: 22px;
+	line-height: 1;
+	padding-bottom: 10px;
+}
+ .right {
+	background-image: url("pic/womanyoga.jpg");
+	background-size: cover;
+	border: 4px solid #303030;
+	display: flex;
+	justify-content: flex-end;
+	height: 300px;
+	line-height: 2;
+	padding: 20px;
+}
+.ads video {
+	float: right;
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	width: 95%;
+	line-height: 2;
+	margin: 6px 10px 0;
+}
+.left2 {
+			float: left;
+			background-size: cover;
+			display: flex;
+			justify-content: flex-end;
+			width: 90%;
+			padding: 20px;
+}
+.clear {
+	clear: both;
+}
+
+/* about */
+.aboutus img {
+	width: 100%;
+}
+	.first {
+		float: left;
+		width: 100%;
+	}
+	.second {
+		float: right;
+		width: 100%;
+	}
+	.clear {
+		clear: both;
+	}
+	#about {
+	background-color: #71918e;
+	color: #fff;
+	padding: 15px;
+		
+}
+
+/* contact */
+.contact section#bannerimage {
+	height: 500px;
+}
+
+.contact #main {
+	text-align: center;
+}
+
+.contact #main p {
+	line-height: 3.5;
+}
+
+.contact iframe {
+	width: 100%;
+	margin-top: 25px;
+}
+section#send h2{
+	font-size: 40px;
+}
+/* contact thankyou submit */
+.ty #thankyou {
+	background-color: lightseagreen;
+	color: #fff;
+	margin-bottom: 30%;
+	padding: 15px;
+	text-align: center;
+}
+		/* product */
+	.product .grid .item img {
+	width: 100%;
+	padding-top: 25px;
+	}
+	.product #mainprod {
+	width: 100%;
+	margin: auto;
+}	
+
+/* hoodiesmen */
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .menhoodie {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.hoodiesmen-1 {
+	background-image: url("pic/hoodiesmen-1.png");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.hoodiesmen-2 {
+	background-image: url("pic/hoodiesmen-2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.hoodiesmen-3 {
+	background-image: url("pic/hoodiesmen-3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+#hoodiesmen-1 div,
+#hoodiesmen-2 div,
+#hoodiesmen-3 div,
+#hoodiesmen-4 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* hoodieswomen */
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .womenhoodie {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.hoodieswomen-1 {
+	background-image: url("pic/womenhodie1.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.hoodieswomen-2 {
+	background-image: url("pic/womenhodie2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.hoodieswomen-3 {
+	background-image: url("pic/womenhodie3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+#hoodieswomen-1 div,
+#hoodieswomen-2 div,
+#hoodieswomen-3 div,
+#hoodieswomen-4 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* Jackets Gilets */
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .jg {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.jg1 {
+	background-image: url("pic/jg1.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.jg2 {
+	background-image: url("pic/jg2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.jg3 {
+	background-image: url("pic/jg3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.jg4 {
+	background-image: url("pic/jg4.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+.jg1 div,
+.jg2 div,
+.jg3 div,
+.jg4 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* Men shorts*/
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .menshort {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.menshort1 {
+	background-image: url("pic/menshort1.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.menshort2 {
+	background-image: url("pic/menshort2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.menshort3 {
+	background-image: url("pic/menshort3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.menshort4 {
+	background-image: url("pic/menshort4.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+.menshort1 div,
+.menshort2 div,
+.menshort3 div,
+.menshort4 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* Sports Accesories*/
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .sportaccess {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.sportaccess1 {
+	background-image: url("pic/accessories1.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.sportaccess2 {
+	background-image: url("pic/accessories2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.sportaccess3 {
+	background-image: url("pic/accessories3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.sportaccess4 {
+	background-image: url("pic/accessories4.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.sportaccess5 {
+	background-image: url("pic/accessories5.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+.sportaccess1 div,
+.sportaccess2 div,
+.sportaccess3 div,
+.sportaccess4 div,
+.sportaccess5 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* Jumpsuit & Rompers*/
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .jrompers {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.jrompers1 {
+	background-image: url("pic/jrompers1.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.jrompers2 {
+	background-image: url("pic/jrompers2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.jrompers3 {
+	background-image: url("pic/jrompers3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.jrompers4 {
+	background-image: url("pic/jrompers4.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.jrompers5 {
+	background-image: url("pic/jrompers5.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+.jrompers1 div,
+.jrompers2 div,
+.jrompers3 div,
+.jrompers4 div,
+.jrompers5 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* Sportsmen top*/
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .mentop {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.mentop1 {
+	background-image: url("pic/sportsmen1.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.mentop2 {
+	background-image: url("pic/sportsmen2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.mentop3 {
+	background-image: url("pic/sportsmen3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.mentop4 {
+	background-image: url("pic/sportsmen4.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.mentop5 {
+	background-image: url("pic/sportsmen5.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+.mentop1 div,
+.mentop2 div,
+.mentop3 div,
+.mentop4 div,
+.mentop5 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* SportsWomen top*/
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .womentop {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.womentop1 {
+	background-image: url("pic/sportswomen1.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.womentop2 {
+	background-image: url("pic/sportswomen2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.womentop3 {
+	background-image: url("pic/sportswomen3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.womentop4 {
+	background-image: url("pic/sportswomen4.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.womentop5 {
+	background-image: url("pic/sportswomen5.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+.womentop1 div,
+.womentop2 div,
+.womentop3 div,
+.womentop4 div,
+.womentop5 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* Track Suit*/
+.inner1 #main {
+	padding-top: 50px;
+	padding: 30px 0;
+}
+.inner1 #main .tracksuit {
+	text-align: center;
+	font-size: 20px;
+	font-family: Rockwell;
+}
+.tracksuit1 {
+	background-image: url("pic/traksuit1.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.tracksuit2 {
+	background-image: url("pic/traksuit2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.tracksuit3 {
+	background-image: url("pic/traksuit3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.tracksuit4 {
+	background-image: url("pic/traksuit4.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.tracksuit5 {
+	background-image: url("pic/traksuit5.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+.tracksuit1 div,
+.tracksuit2 div,
+.tracksuit3 div,
+.tracksuit4 div,
+.tracksuit5 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+@media screen and (min-width: 922px) {
+			.logo {
+				display: flex;
+				font-size: 18px;
+				position: absolute;
+				left: 50px;
+				top: 20px;
+			}
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 0;
+                height: 70px;
+                align-items: center;
+            }
+
+            .main-nav {
+                display: flex;
+                margin-right: 30px;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+
+            .main-nav li {
+                margin: 0;
+            }
+
+            .nav-links {
+                margin-left: 40px;
+            }
+
+            .logo {
+                margin-top: 0;
+            }
+
+            .navbar-toggle {
+                display: none;
+            }
+
+            .logo:hover,
+            .nav-links:hover {
+                color: rgba(255, 255, 255, 1);
+            }
+			section#banner{
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: left;
+			padding-top: 20px;
+			}
+
+		.left {
+			float: right;
+			width: 50%;
+			margin: 6px 10px 0;
+			text-align: center;
+			}
+			.right {
+	background-image: url("pic/womanyoga.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	height: 300px;
+	width: 300px;
+}
+.left2 {
+			float: left;
+			width: 50%;
+			margin: 6px 10px 0;
+			text-align: center;
+}
+.ads video {
+	float: right;
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	width: 75%;
+	line-height: 2;
+	padding: 30px;
+}
+.clear {
+	clear: both;
+}
+/* about */
+.aboutus img {
+	width: 100%;
+}
+.container {
+		width: 768px;
+		margin: 0 auto;
+	}
+	.first {
+		float: left;
+		width: 50%;
+	}
+	.second {
+		float: right;
+		width: 45%;
+	}
+	.clear {
+		clear: both;
+	}
+	/* product */
+.hoodie {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 40%;
+	left: 33%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	padding: 5px 8px;
+}
+.hoodie:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 40%;
+	left: 33%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+.hoodiew {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	padding: 5px 8px;
+}
+.hoodiew:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+.jacketsg {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 40%;
+	left: 67%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	padding: 5px 8px;
+}
+.jacketsg:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 40%;
+	left: 67%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+.Mshort {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 80%;
+	left: 33%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+	padding: 5px 8px;
+}
+.Mshort:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 80%;
+	left: 33%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+.Access {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	padding: 5px 8px;
+}
+.Access:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+.rompers {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 80%;
+	left: 67%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	padding: 5px 8px;
+}
+.rompers:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 80%;
+	left: 67%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+.sportsmen {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 140%;
+	left: 33%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+	padding: 5px 8px;
+}
+.sportsmen:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 140%;
+	left: 33%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+.sportswomen {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 140%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	padding: 5px 8px;
+}
+.sportswomen:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 140%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+.track {
+	font-size: 15px;
+	font-family: Mukta;
+	text-align: center;
+	top: 140%;
+	left: 67%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	padding: 5px 8px;
+}
+.track:hover {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	top: 140%;
+	left: 67%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+}
+}
+@media screen and (min-width:1280px) {
+	header nav {
+		justify-content: flex-end;
+		padding-right: 30px;
+	}
+	footer section#copy ul li {
+		margin: auto;
+		display: inline-block;
+	}
+	.left {
+			float: left;
+			width: 40%;
+			}
+	.right {
+	background-image: url("pic/womanyoga.jpg");
+	background-size: cover;
+	box-shadow: 0px 6px 2.72px 1.28px rgba(0, 0, 0, 0.09);
+	height: 300px;
+	width: 300px;
+	}
+	.ads video {
+	float: right;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	height: 400px;
+	width: 50%;
+	padding: 20px;
+}
+.left2 {
+			float: left;
+			font-size: 20px;
+			width: 60%;
+			}
+.clear {
+	clear: both;
+}	
+/* product */
+	.product #mainprod .wrapper {
+		padding-top: 50px;
+		height: 50%;
+	}
+	
+	.product .grid {
+		display: flex;
+		width: 50%;
+		height: 50%;
+		margin: auto;
+	}
+	.product .grid .item{
+		display: flex;
+		flex: 1;
+		padding: 8px;
+	}
+	.product .grid .item img {
+		padding-top: 0;
+		height: 90%;
+	}
+		/* hoodiesmen */
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .menhoodie {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .hoodiesmen-1,
+	.inner1 .hoodiesmen-2,
+	.inner1 .hoodiesmen-3,
+	.inner1 .hoodiesmen-	{
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+.hoodiesmen-1 {
+	background-image: url("pic/hoodiesmen-1.png");
+	background-size: cover;
+	display: flex;
+	width: 50%;
+	height: 300px;
+	margin: 40px 0;
+}
+
+.hoodiesmen-2 {
+	background-image: url("pic/hoodiesmen-2.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+
+.hoodiesmen-3 {
+	background-image: url("pic/hoodiesmen-3.jpg");
+	background-size: cover;
+	display: flex;
+	height: 300px;
+	margin: 35px 0;
+}
+#hoodiesmen-1 div,
+#hoodiesmen-2 div,
+#hoodiesmen-3 div,
+#hoodiesmen-4 div {
+	background: rgba(255,255,255,0.8);
+	line-height: 2;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+}
+/* hoodieswomen */
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .womenhoodie {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .hoodieswomen-1,
+	.inner1 .hoodieswomen-2,
+	.inner1 .hoodieswomen-3 {
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+/* Jackets & Gilets */
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .jg {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .jg1,
+	.inner1 .jg2,
+	.inner1 .jg3,
+	.inner1 .jg4	{
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+/* Men Short */
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .menshort {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .menshort1,
+	.inner1 .menshort2,
+	.inner1 .menshort3,
+	.inner1 .menshort4	{
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+/* Sport Access*/
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .sportaccess {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .sportaccess1,
+	.inner1 .sportaccess2,
+	.inner1 .sportaccess3,
+	.inner1 .sportaccess4,	
+	.inner1 .sportaccess5 {
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+/* Jumpsuit and Rompers*/
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .jrompers {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .jrompers1,
+	.inner1 .jrompers2,
+	.inner1 .jrompers3,
+	.inner1 .jrompers4,	
+	.inner1 .jrompers5 {
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+/* SportsMen top*/
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .mentop {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .mentop1,
+	.inner1 .mentop2,
+	.inner1 .mentop3,
+	.inner1 .mentop4,	
+	.inner1 .mentop5 {
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+/* SportsWomen top*/
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .womentop {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .womentop1,
+	.inner1 .womentop2,
+	.inner1 .womentop3,
+	.inner1 .womentop4,	
+	.inner1 .womentop5 {
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+/* Track Suits*/
+	.inner1 div {
+		flex: 2;
+}
+	.inner1 #main .tracksuit {
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+	margin-bottom: 30px;
+	padding-bottom: 5%;
+}
+	.inner1 .tracksuit1,
+	.inner1 .tracksuit2,
+	.inner1 .tracksuit3,
+	.inner1 .tracksuit4,	
+	.inner1 .tracksuit5 {
+		flex-basis: 100%;
+		margin-top: 0;
+		margin-right: 20px;
+		padding-right: 20%;
+		flex: 1;
+}
+	.inner1 .item {
+		display: flex;
+	}
+	.inner1 #main {
+	width: 50%;
+	padding: 45px;
+	margin: auto;
+}	
+	
+	.inner1 #main .wrapper {
+		padding-top: 0;
+	}
+.inner1 #main {
+	padding-top: 100px;
+}
+}
+	/* product */
+.product #mainprod .wrapper .pick {
+	font-size: 20px;
+	font-family: Mukta;
+	text-align: center;
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+section#bannerimage{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic/banner-1.jpg");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.img-banner{
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.img-banner2 {
+	font-size: 55px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.img-banner3 {
+	font-size: 35px;
+	text-align: center;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.shop {
+	text-align: center;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+footer section#social {
+	display: flex;
+	background-color: #ccc;
+	justify-content: center;
+	padding: 50px 0;
+}
+
+footer section#social i {
+	padding: 0 35px;
+}
+
+footer section#copy {
+	background: #000;
+	color: #fff;
+	padding: 50px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 12px;
+}
+
+footer section#copy ul li {
+	padding: 0 20px;
+	text-align: center;
+}
+
+footer section#copy p {
+	padding-top: 20px;
+	align-items: center;
+}
+/* contact */
+.contactus {
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.read {
+	text-align: center;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+/* L(link)oV(visited)e H(Hover)A(active)te Rule */
+header a:link, 
+header a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+header a:hover,
+header a:active,
+section#banner a:hover,
+section#banner a:active {
+	color: #ccc;
+	transition: all ease 0.3s;
+}
+.shop:link,
+.shop:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.shop:hover,
+.shop:active {
+	color: #ccc;
+	transition: all ease 0.3s;
+}
+.hoodie:link,
+.hoodie:visited {
+	color: #000;
+	text-decoration: none;
+}
+.hoodie:hover,
+.hoodie:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+.hoodiew:link,
+.hoodiew:visited {
+	color: #000;
+	text-decoration: none;
+}
+.hoodiew:hover,
+.hoodiew:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+.jacketsg:link,
+.jacketsg:visited {
+	color: #000;
+	text-decoration: none;
+}
+.jacketsg:hover,
+.jacketsg:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+.Mshort:link,
+.Mshort:visited {
+	color: #000;
+	text-decoration: none;
+}
+.Mshort:hover,
+.Mshort:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+.Access:link,
+.Access:visited {
+	color: #000;
+	background-color: ccc;
+	text-decoration: none;
+}
+.Access:hover,
+.Access:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+.rompers:link,
+.rompers:visited {
+	color: #000;
+	background-color: ccc;
+	text-decoration: none;
+}
+.rompers:hover,
+.rompers:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+.sportsmen:link,
+.sportsmen:visited {
+	color: #000;
+	background-color: ccc;
+	text-decoration: none;
+}
+.sportsmen:hover,
+.sportsmen:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+.sportswomen:link,
+.sportswomen:visited {
+	color: #000;
+	background-color: ccc;
+	text-decoration: none;
+}
+.sportswomen:hover,
+.sportswomen:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+.track:link,
+.track:visited {
+	color: #000;
+	background-color: ccc;
+	text-decoration: none;
+}
+.track:hover,
+.track:active {
+	color: #ccc;
+	background-color: #403A3E;
+	transition: all ease 0.1s;
+}
+/* reusable css code */
+h1,h2,h3,h4,h5,h6,
+a,p {
+	line-height: 2;
+}
+#cta {
+	border: 1px solid #fff;
+	padding: 8px 12px;
+}
+#cta:hover{
+	border: 1px solid #ccc;
+	padding: 12px 18px;
+}
+#send {
+	padding: 60px 10px;
+}
+#send h2 {
+	text-align: center;
+}
+#send form input,
+#send form textarea {
+	border: 1px solid #303030;
+	width: 100%;
+	line-height: 2.5;
+}
+
+#send form input.submit {
+	background-color: tomato;
+	color: #fff;
+	border: 0;
+	padding: 10px;
+}
+.shop {
+	border: 1px solid #fff;
+	padding: 4px 6px;
+}
+.item {
+	width: 80%;
+	margin: 0 auto;
+}
+

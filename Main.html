@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<title> Fitness Apparel </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="reset.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="font/web/css/all.css" rel="stylesheet" type="text/css">
+</head>
+<body class="home">
+	<header>
+	<nav class="navbar">
+		<span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-align-justify"></i>
+		</span>
+			<div class="fitness">
+			<img src="pic/Fitness.png" alt="Fitness">
+			</div>
+			<a href="Main.html" class="logo"><h3> Fitness Apparel </h3></a>
+			<ul class="main-nav" id="js-menu">
+				<li>
+                <a href="Main.html" class="nav-links">Home</a>
+				</li>
+				<li>
+                <a href="product.html" class="nav-links">Products</a>
+				</li>
+				<li>
+                <a href="AboutUS.html" class="nav-links">About Us</a>
+				</li>
+				<li>
+                <a href="contact.html" class="nav-links" id="cta">Contact Us</a>
+				</li>
+        </ul>
+	</nav>
+</header>
+<section id="bannerimage">
+	<div class="img-banner">FEEL THE </div>
+	<div class="img-banner2">Authentic</div>
+	<div class="img-banner3">PEACE </div>
+		<a href="product.html" class="shop">SHOP NOW</a>
+</section>
+
+<section id="main">
+	<div class="left">
+		<h2>Hello, We are Fitness Apparel</h2>
+		<p align="justify">We're here to creating groundbreaking sport innovations, by making our products more sustainably,</p>	
+		<p align="justify"> by making a positive impact in communities where we live and work.</p>
+	</div>
+			<div class="right"></div>
+</section>
+
+<section>
+	<div class="left2">
+		<p align="justify">Health is something that defines you, without uttering a word. A healthy person looks smart and fresh. Being healthy is a state of body where we feel energetic, have proper sleep, proper diet, and etc. If you are healthy you will automatically be fit.</p>	
+	</div>
+	<div class="ads">
+		<video controls="controls" width="600" height="600" autoplay>
+		<source src="pic/ads.mp4" type="video/mp4">
+		</video>
+	</div>
+</section>
+<footer class="clear">
+	<section id="social">
+		<a href="https://www.facebook.com/arvy.rv"><i  class="fab fa-facebook-f"></i></a>
+		<a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i> </a>
+		<a href="https://www.instagram.com/arvyyy/"><i class="fab fa-instagram"></i> </a>
+		
+	</section>
+	<section id="copy">
+		<ul>
+			<li> This is about my business</li>
+			<li> (0935)2206026</li>
+			<li> martearvy@gmail.com</li>
+		</ul>
+		<p>Copyright &copy; 2020 </p>
+	</section>
+</footer>
+
+<script>
+	let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+    
+    mainNav.classList.toggle('active');
+});
+</script>
+
+</body>
+
+</html>
+
+
